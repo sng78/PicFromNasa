@@ -10,7 +10,6 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.io.IOException;
 
 public class MyTelegramBot extends TelegramLongPollingBot {
-
     private static final String BOT_TOKEN =
             "6169589321:AAHXLTMxUAZcCPEzoru_WO7-Zfc4-N81TTk";
     private static final String BOT_USERNAME = "NasaNewBot_bot";
@@ -40,8 +39,10 @@ public class MyTelegramBot extends TelegramLongPollingBot {
             switch (update.getMessage().getText()) {
                 case "/help":
                     sendMessage("Привет, я бот NASA! Я высылаю ссылки " +
-                            "на картинки по запросу. Напоминаю, что картинки " +
-                            "на сайте NASA обновляются раз в сутки");
+                            "на картинки по запросу. Картинки " +
+                            "на сайте NASA обновляются раз в сутки" +
+                            "\n\n" + "Список команд: " +
+                            "\n" + "/give - получить картинку с сайта Nasa");
                     break;
                 case "/give":
                     try {
@@ -51,7 +52,7 @@ public class MyTelegramBot extends TelegramLongPollingBot {
                     }
                     break;
                 default:
-                    sendMessage("Я не понимаю :(");
+                    sendMessage("Я не понимаю, неизвестная команда :(");
             }
         }
     }
@@ -66,5 +67,4 @@ public class MyTelegramBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
-
 }
