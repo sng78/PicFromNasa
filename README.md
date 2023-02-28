@@ -2,7 +2,7 @@
 
 ***Задачи:***
 - Необходимо скачать картинку с сайта NASA
-- Telegram-бот должен ее опубликовать по запросу
+- Telegram-бот должен опубликовать фотографию по запросу
 
 ***Используемые технологии:***
 - Java JDK 11, Git, Github, IntelliJ IDEA, Maven, Yandex Cloud, библиотеки Jackson Databind, Apache HttpComponents и Telegram Bots
