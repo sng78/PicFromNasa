@@ -1,7 +1,8 @@
 ## Проект “Телеграм-бот NASA”
 
 ***Задачи:***
-- Необходимо скачать картинку с сайта NASA и опубликовать ее в Telegram
+- Необходимо скачать картинку с сайта NASA
+- Telegram-бот должен ее опубликовать по запросу
 
 ***Используемые технологии:***
 - Java JDK 11, Git, Github, IntelliJ IDEA, Maven, библиотеки Jackson, Apache HttpComponents и Telegram Bots
