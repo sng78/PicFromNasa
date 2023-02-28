@@ -5,7 +5,7 @@
 - Telegram-бот должен ее опубликовать по запросу
 
 ***Используемые технологии:***
-- Java JDK 11, Git, Github, IntelliJ IDEA, Maven, библиотеки Jackson, Apache HttpComponents и Telegram Bots
+- Java JDK 11, Git, Github, IntelliJ IDEA, Maven, Yandex Cloud, библиотеки Jackson, Apache HttpComponents и Telegram Bots
 
 ***Результаты:***
 - Разработал приложение для получения астрономических изображений NASA с помощью NASA API. Интегрировал его в Telegram-бота, который по запросу публикует фотографию из космоса (изображения на сайте обновляются раз в сутки)
