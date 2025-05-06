@@ -5,7 +5,7 @@
 - Telegram-бот должен опубликовать фотографию по запросу
 
 ***Используемые технологии:***
-- Java JDK 11, Git, Github, IntelliJ IDEA, Maven, Yandex Cloud, библиотеки Jackson, Apache HttpComponents и Telegram Bots
+- Java, HttpComponents, Jackson, Maven, Telegram Bots, Yandex Cloud, IntelliJ IDEA, Git
 
 ***Результаты:***
 - С помощью ключа API NASA сделал запрос на сайт api.nasa.gov
